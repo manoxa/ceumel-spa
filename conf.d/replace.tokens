@@ -1,0 +1,4 @@
+@spawic/assets=${WIC_ASSETS}
+/hub-url=${HUB_HOST}
+/hub-sso=${HUB_SSO}
+/hub-taa=${HUB_TAA}

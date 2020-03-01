@@ -1,0 +1,65 @@
+.logo{
+    margin-top: 40%
+}
+
+.img-logo{
+    margin-left: 30px;
+    max-width: 100px;
+    max-height: 350px;
+}
+
+.slogan{
+    position: inherit;
+    width: 270px;
+    margin-top: 0.5rem;
+    margin-left: 10%;
+}
+
+.slogan h5{
+    margin-top: -8%;
+    margin-left:55%;
+}
+
+.containerMenu {
+    box-sizing: border-box;
+    display: inline-block;
+    //padding: 0;
+    bottom: 0;
+    position: fixed;
+    top: 54px;
+    //width: 300px;
+    z-index: 10;
+    overflow-x: auto;
+    box-shadow: 4px 3px 10px -5px black;
+    -webkit-box-shadow: 4px 3px 10px -5px black;
+}
+
+.navbar {
+    padding: 0px;
+    color: #fff;
+    box-shadow: 2px 3px 10px -5px black;
+    -webkit-box-shadow: 2px 3px 10px -5px black;
+    -moz-box-shadow: 2px 3px 10px -5px black;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999999;
+    background: rgb(54, 138, 248);
+}
+
+.navbar img {
+    width: 230px;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.logged-user-info {
+    margin-top: -30px;
+    padding: 15px;
+    text-indent: 7px;
+}
+

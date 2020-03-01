@@ -1,0 +1,27 @@
+<div style="overflow-x: hidden; height: auto;">
+
+    <nav class="navbar navbar-fixed bg-navbar " style="min-height: 50px;">
+         <a (click)="goHome()">
+            <img src="assets/shared/abelha-logo.png" class="img-logo" />
+          </a>
+          <div class="slogan">
+            <h1>Céu e Mel<h5> Moda Infantil</h5></h1>
+          </div>
+          
+          <div class="logged-user-info">
+            <span class="navbar-text navbav-text-std">Bem Vindo(a)! alemarquesdba@gmail.com</span>
+          </div>
+    </nav>
+
+    <div class="row">
+        <div class="containerMenu col-sm-3 col-md-3 col-lg-2 col-xl-2 bg-menu pr-0">
+            <div class="logo">
+                <h1></h1>
+            </div>
+            <p-panelMenu [model]="menuItems" [ngClass]="['gti-menu']" [multiple]="false"></p-panelMenu>
+        </div>
+        <div class="mb-3 pr-30 col-sm-12 offset-md-3 col-md-9 offset-lg-2 col-lg-10 offset-xl-2 col-xl-10">
+          <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

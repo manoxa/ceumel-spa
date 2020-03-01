@@ -1,0 +1,192 @@
+/* You can add global styles to this file, and also import other style files */
+
+//Customiza��o do Bootstrap
+@import "styles_variables.scss";
+
+/* SAAS */
+@import "node_modules/bootstrap/scss/bootstrap";
+$roboto-font-path: "../node_modules/roboto-fontface/fonts";
+@import "node_modules/roboto-fontface/css/roboto/sass/roboto-fontface";
+$fa-font-path: "../node_modules/font-awesome/fonts";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+
+/* PRIME */
+@import "styles_theme";
+@import "../node_modules/primeng/resources/primeng.min.css";
+
+/* Application */
+a {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $font-family-bold;
+  margin: 0;
+}
+
+.bg-navbar {
+  background-color: #EB0000;
+}
+
+.bg-menu {
+  color: white;
+  font-family: $font-family-bold;
+  background-color: #666666;
+}
+
+.bg-silver {
+  background-color: #F7F7F7;
+}
+
+
+.gti-menu {
+  .ui-panelmenu .ui-panelmenu-panel {
+    border: none;
+    border-bottom: none;
+  }
+
+  .ui-panelmenu .ui-panelmenu-panel:last-child {
+    border-bottom: none;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header {
+    font-family: $font-family-bold;
+    font-size: 1rem;
+    background-color: transparent;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header .fa {
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header a {
+    padding: 0.5em 0.75em;
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header:not(.ui-state-active):hover {
+    background-color: transparent;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header:not(.ui-state-active):hover .fa {
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header.ui-state-active {
+    background-color: $primary;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header.ui-state-active a {
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-header.ui-state-active .fa {
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-content {
+    border: none;
+    padding: 5px;
+    font-size: 0.75rem;
+    background-color: $primary;
+  }
+
+  .ui-panelmenu .ui-panelmenu-content .ui-menuitem-link {
+    padding: 0.375em 0.75em 0.375em 1.5em;
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-content .ui-menuitem-link:hover {
+    background-color: theme-color-level(primary, 3);
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-content .ui-menuitem-link.ui-state-active {
+    background-color: theme-color-level(primary, 3);
+    color: $white;
+  }
+
+  .ui-panelmenu .ui-panelmenu-content .ui-menuitem-link>span.fa {
+    display: inline-block;
+    vertical-align: middle;
+    left: auto;
+  }
+
+  .ui-panelmenu .ui-panelmenu-content .ui-menuitem-link .ui-menuitem-text {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}
+
+p-dialog .ui-dialog .ui-dialog-titlebar {
+  padding: 1em;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+p-dialog .ui-dialog .ui-dialog-footer {
+  border: none;
+  border-top: 1px solid #c7c7c7;
+}
+
+p-calendar {
+  margin-right: 30px;
+}
+
+p-calendar {
+  input {
+    width: 110px;
+  }
+}
+
+// p-dropdown > div{
+//     width: 25% !important;
+// }
+
+.ui-dialog {
+  min-width: 40% !important;
+}
+
+p-autocomplete {
+  .ui-autocomplete {
+    .ui-autocomplete-panel {
+      width: max-content !important;
+    }
+
+    .ui-autocomplete-input {
+      padding-right: 11.5em;
+    }
+  }
+}
+
+.middleDot {
+  background-image: url(assets/icons/dot.png);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.middleNothing {
+  background: no-repeat;
+}
+
+.ui-inputtext.ng-dirty.ng-invalid,
+p-dropdown.ng-dirty.ng-invalid>.ui-dropdown,
+p-autocomplete.ng-dirty.ng-invalid>.ui-autocomplete>.ui-inputtext,
+p-calendar.ng-dirty.ng-invalid>.ui-inputtext,
+p-chips.ng-dirty.ng-invalid>.ui-inputtext,
+p-inputmask.ng-dirty.ng-invalid>.ui-inputtext,
+p-checkbox.ng-dirty.ng-invalid .ui-chkbox-box,
+p-radiobutton.ng-dirty.ng-invalid .ui-radiobutton-box,
+p-inputswitch.ng-dirty.ng-invalid .ui-inputswitch,
+p-listbox.ng-dirty.ng-invalid .ui-inputtext,
+p-multiselect.ng-dirty.ng-invalid>.ui-multiselect,
+p-spinner.ng-dirty.ng-invalid>.ui-inputtext,
+p-selectbutton.ng-dirty.ng-invalid .ui-button,
+p-togglebutton.ng-dirty.ng-invalid .ui-button {
+  border-color: #e13131 !important;
+}

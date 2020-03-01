@@ -1,0 +1,41 @@
+{
+	"url_hub_sso": "/hub-sso/sso/authenticate/internal-basic?gw-app-key=32701070d0c20136a862005056a16368",
+  "url_mbs_menu_items_by_system_code": 	"/hub-url/authorization-access-collaborator/v1/hierarchy-transactions?gw-app-key=32701070d0c20136a862005056a16368",
+ 	"url_front_log":        "/hub-url/32701070d0c20136a862005056a16368",
+  "url_encryption": 		"/hub-url/cryptographic-security/v1/key/public/js?gw-app-key=32701070d0c20136a862005056a16368",
+
+
+	"system.encryption": "WIC",
+	"route_forbbiden": 		"access-denied",
+	"system_code": "WIC",
+	"app-key": "32701070d0c20136a862005056a16368",
+
+	"url_hub_base": "/hub-url",
+
+  "url_hub_mock": "http://local.isbanbr.dev.corp:",
+  "port_hub_mock_messageSwift":"8002",
+  "port_hub_mock_messageSwiftRTI":"8003",
+  "port_hub_mock_historyBaseCommon": "8081",
+  "port_hub_mock_pageLoadInit": "8081",
+  "port_hub_mock_searchRGC": "8082",
+  "port_hub_mock_exchangeCustomerI": "8083",
+  "port_hub_mock_searchFlowPoint": "8083",
+  "port_hub_mock_searchGeneral": "8083",
+  "port_hub_mock_searchShipmentLetter": "8084",
+  "port_hub_mock_searchBankSlip": "8085",
+  "port_hub_mock_searchContract": "8085",
+  "port_hub_mock_exchangeCustomerT": "8002",
+  "port_hub_mock_uploadSearch": "8002",
+  "port_hub_mock_uploadDocumentSearch": "8002",
+
+	"url_hub_hk": "https://esbapi.santanderbr.pre.corp",
+	"url_hub_sso_hk": "https://ssohub-hml.bs.br.bsch/sso-v2/authenticate/internal-basic-v2?gw-app-key=32701070d0c20136a862005056a16368",
+	"url_hub_sso_dev": "https://wastfcdvlbr01.bs.br.bsch/sso-v2/authenticate/internal-basic?gw-app-key=32701070d0c20136a862005056a16368",
+
+  "url_taa_base": "/hub-taa",
+
+	"url_hub_scm_base": "http://siubd226:9080",
+  "url_hub_scm_mock": "http://siubd226:9080",
+  "url_hub_scm_hk": "http://siubd226:9080"
+  
+}

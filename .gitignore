@@ -1,0 +1,44 @@
+node_modules/*
+.vscode/*
+dist/*
+typings/*                                               
+*.iml
+*.log.*
+# compiled output
+/dist
+/tmp
+.zip
+# dependencies
+/bower_components
+# IDEs and editors
+.project
+.classpath
+*.launch
+.settings/
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/testreports/*
+/libpeerconnection.log
+# e2e
+/e2e/*.js
+/e2e/*.map
+#System Files
+.DS_Store
+Thumbs.db
+src/assets/.npmignore
+
+.vscode/*
+.idea/
+node_modules/
+typings/
+npm-debug.log
+.vs/*
+src/app/shared/services/gop-hub-service/mock.config.ts
+.angulardoc.json
+coveragemm/*
+build/reports/coverage/*
+testreports/*
+package-lock.json
+/build/
